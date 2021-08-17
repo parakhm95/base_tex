@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-latexmk -outdir=build -pvc -pdf main.tex
+latexmk -outdir=build -pvc -pdf -r ./latexmkrc main.tex
